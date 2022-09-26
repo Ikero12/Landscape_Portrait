@@ -18,9 +18,9 @@ class MainActivity : AppCompatActivity() {
         val orientacion = this.resources.configuration.orientation
         var elTexto: TextView = findViewById(R.id.textoAmbulante)
         if(orientacion == Configuration.ORIENTATION_LANDSCAPE){
-            elTexto.text="El móvil está tumbado"
+            elTexto.text="El móvil está tumbado :)"
         }else if (orientacion == Configuration.ORIENTATION_PORTRAIT){
-            elTexto.text="El móvil está de pie"
+            elTexto.text="El móvil está de pie :)"
         }
 
     }
